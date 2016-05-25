@@ -1,0 +1,23 @@
+{
+  "name": "my-parse-dashboard",
+  "version": "1.0.0",
+  "description": "Parse dashboard for easy access",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js --config ./parse-dashboard-config.json --allowInsecureHTTP=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejpratap46/my-parse-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejpratap46/my-parse-dashboard/issues"
+  },
+  "homepage": "https://github.com/tejpratap46/my-parse-dashboard#readme",
+  "dependencies": {
+    "parse-dashboard": "~1.0.12"
+  }
+}
